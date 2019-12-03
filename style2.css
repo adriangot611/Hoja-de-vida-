@@ -1,0 +1,26 @@
+.w{
+    text-shadow: 0px 15px 15px rgb(2, 2, 2) ;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    perspective: 700px;
+}
+.estudio{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.055);
+    padding: 10% 4%;
+    width: 40%;
+    font-weight: 700;
+    transition: all 0.5s;
+    box-shadow: black 0px 0px 10px;
+}
+.estudio h3{
+    font-weight: 900;
+    text-shadow: black 0px 5px 10px;
+    font-size: 25px;
+}
+.estudio:hover{
+    transform: translateZ(50px)
+    
+}
